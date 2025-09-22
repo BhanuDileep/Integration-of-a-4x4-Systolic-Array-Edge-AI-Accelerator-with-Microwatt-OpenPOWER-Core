@@ -105,7 +105,7 @@ We follow a structured workflow to ensure reproducibility and tapeout readiness:
 ---
 
 ## Use of Generative AI
-We use **Generative AI (GenAI)** (e.g., ChatGPT) in this project as part of our methodology:  
+We use **Generative AI (GenAI)** (e.g., AutoChip, ChipChat, ChatGPT) in this project as part of our methodology:  
 
 - **Brainstorming & Ideation:** Exploring design-space trade-offs (4×4 vs 8×8 arrays, memory sizing).  
 - **Code Assistance:** Drafting RTL templates (human-reviewed before use).  
