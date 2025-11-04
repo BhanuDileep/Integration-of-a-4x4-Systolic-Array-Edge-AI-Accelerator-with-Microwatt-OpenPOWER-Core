@@ -1,5 +1,10 @@
 # Microwatt + Systolic Array Accelerator
 
+> **📁 File Structure Note**  
+> - Files starting with **`user_proj_timer`** belong to **Option A – 4×4 GPIO-based Systolic Array** (baseline prototype).  
+> - Files starting with **`accel_wb_8x8`** belong to **Option B – 8×8 Wishbone-based Systolic Array** (final version).  
+>  Each design has its own RTL with verilog/rtl belong to **Option B** and verilog/rtl_v1 belong to **Option A**
+
 ## About the Project
 This project is part of the **Microwatt Momentum Hackathon**.  
 We extend the [Microwatt OpenPOWER CPU core](https://github.com/antonblanchard/microwatt) by integrating systolic array accelerators for **Edge AI workloads** (matrix multiplication, neural network layers).  
